@@ -7,6 +7,7 @@ type Direction = "left" | "right" | "up" | "down";
 
 type FadeSlideProps = React.ComponentProps<typeof motion.div> & {
   children: React.ReactNode;
+  isActive?: boolean;
   direction?: Direction;
   className?: string;
 };
@@ -20,6 +21,7 @@ const offsetMap: Record<Direction, { x?: number; y?: number }> = {
 
 export function FadeSlide({
   children,
+  isActive = true,
   direction = "up",
   className = "",
   ...props
@@ -37,7 +39,7 @@ export function FadeSlide({
       animate={
         isInView
           ? {
-              opacity: 1,
+              opacity: isActive ? 1 : 0.45,
               x: 0,
               y: 0,
             }

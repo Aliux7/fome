@@ -1,29 +1,23 @@
 @import "tailwindcss";
 @import 'locomotive-scroll/dist/locomotive-scroll.css';
 
-@theme inline {
-  --font-satoshi: var(--font-satoshi);
-  --font-supreme: var(--font-supreme);
+
+body {
+  font-family: var(--font-poppins), system-ui, sans-serif;
 }
 
+
 @layer utilities {
-  .font-satoshi {
-    font-family: var(--font-satoshi), sans-serif;
-  }
-
-  .font-supreme {
-    font-family: var(--font-supreme), sans-serif;
-  }
-
   @keyframes float {
     0%,
     100% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-5px);
+      transform: translateY(-10px);
     }
   }
+
 
   @keyframes reverseFloat {
     0%,
@@ -31,13 +25,15 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(5px);
+      transform: translateY(10px);
     }
   }
+
 
   .animate-float {
     animation: float 3s ease-in-out infinite;
   }
+
 
   .animate-reverse-float {
     animation: reverseFloat 3s ease-in-out infinite;
