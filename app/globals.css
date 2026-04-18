@@ -1,11 +1,18 @@
 @import "tailwindcss";
-@import 'locomotive-scroll/dist/locomotive-scroll.css';
-
+@import "locomotive-scroll/dist/locomotive-scroll.css";
 
 body {
   font-family: var(--font-poppins), system-ui, sans-serif;
 }
 
+@theme {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-3xl: 1800px;
+}
 
 @layer utilities {
   @keyframes float {
@@ -18,7 +25,6 @@ body {
     }
   }
 
-
   @keyframes reverseFloat {
     0%,
     100% {
@@ -29,11 +35,9 @@ body {
     }
   }
 
-
   .animate-float {
     animation: float 3s ease-in-out infinite;
   }
-
 
   .animate-reverse-float {
     animation: reverseFloat 3s ease-in-out infinite;
