@@ -38,7 +38,7 @@ const ParallaxImage = ({ img, index }: any) => {
   const innerY = useTransform(
     scrollY,
     [0, 1800],
-    [0, index % 2 === 0 ? -30 : 30],
+    [0, index % 2 === 0 ? -20 : 20],
   );
 
   return (
@@ -62,7 +62,7 @@ const ParallaxImage = ({ img, index }: any) => {
 
 const GallerySection = () => {
   return (
-    <section className="min-h-screen w-full p-10 pt-60">
+    <section className="min-h-screen w-full p-10 pt-40">
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {images.map((img, index) => (
           <ParallaxImage key={index} img={img} index={index} />

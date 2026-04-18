@@ -74,7 +74,7 @@ export default function HeroSection() {
 
   return (
     <section
-      className="h-screen w-full relative overflow-hidden select-none"
+      className="h-screen w-full relative select-none p-10"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -94,13 +94,13 @@ export default function HeroSection() {
             BUILD
           </WordsPullUp>
         </div>
-        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-2">
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-0.5">
           YOUR OWN BAG
         </WordsPullUp>
         <WordsPullUp className="font-semibold text-5xl text-zinc-900 ml-10">
           THAT FEELS
         </WordsPullUp>
-        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-2">
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-0.5">
           LIKE YOU
         </WordsPullUp>
       </div>
@@ -118,7 +118,7 @@ export default function HeroSection() {
         data-scroll-speed="0.5"
         className="absolute bottom-10 right-10 pointer-events-none"
       >
-        <WordsPullUp className="font-semibold text-9xl text-zinc-900 -ml-2">
+        <WordsPullUp className="font-semibold text-9xl text-zinc-900 -mr-2">
           FOR YOU
         </WordsPullUp>
       </div>

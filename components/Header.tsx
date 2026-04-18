@@ -34,7 +34,7 @@ const Header = () => {
       <div>
         <Link
           href="https://api.whatsapp.com/send?phone=6285173135780"
-          className="sm:text-2xl cursor-pointer group flex justify-center items-center gap-1 text-zinc-900 w-fit whitespace-nowrap relative p-1 px-3 before:content-[''] before:w-full before:h-[1.5px] before:absolute before:left-0 before:bottom-0 before:bg-zinc-900 before:transition-transform before:ease-in-out before:duration-500 before:scale-x-0 before:scale-y-100 before:origin-right hover:before:scale-x-100 hover:before:origin-left"
+          className="sm:text-xl cursor-pointer group flex justify-center items-center gap-1 rounded-lg border border-zinc-900 transition-colors duration-300 ease-in-out hover:bg-zinc-200 text-zinc-900 w-fit whitespace-nowrap relative p-1 px-3"
         >
           Get Your Kit Now
         </Link>

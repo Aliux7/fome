@@ -7,6 +7,8 @@ import GallerySection from "@/components/GallerySection";
 import LocomotiveScroll from "locomotive-scroll";
 import { useEffect } from "react";
 import Footer from "@/components/Footer";
+import WhyUsSection from "@/components/WhyUsSection";
+import AboutSection from "@/components/AboutSection";
 
 export default function Home() {
   useEffect(() => {
@@ -18,10 +20,12 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-linear-to-br from-white to-zinc-100">
+    <div className="flex flex-col flex-1 items-center justify-center gap-30 bg-white">
       <Header />
       <HeroSection />
+      <WhyUsSection />
       <GallerySection />
+      <AboutSection />
       <TutorialSection />
       <CTASection />
       <Footer />
