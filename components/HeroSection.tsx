@@ -6,6 +6,9 @@ import HangingRope from "./HangingRope";
 import { WordsPullUp } from "./UI/WordsPullUp";
 import { FadeSlide } from "./UI/FadeSlide";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import Link from "next/link";
+import { TbBrandShopee } from "react-icons/tb";
+import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const images = [img1, img2];
 
@@ -68,7 +71,7 @@ export default function HeroSection() {
 
     setIsDragging(false);
   };
-  
+
   return (
     <section
       className="h-screen w-full relative overflow-hidden select-none"
@@ -82,12 +85,41 @@ export default function HeroSection() {
     >
       <HangingRope />
 
-      <div className="absolute top-45 left-10 pointer-events-none">
-        <WordsPullUp className="font-semibold text-9xl text-zinc-900 -ml-2">
-          From You
+      <div data-scroll className="absolute top-20 left-10 pointer-events-none">
+        <div className="flex justify-between items-center">
+          <WordsPullUp className="text-sm text-zinc-900 text-right">
+            [{active + 1}/2]
+          </WordsPullUp>
+          <WordsPullUp className="font-semibold text-5xl text-zinc-900 text-right mr-10">
+            BUILD
+          </WordsPullUp>
+        </div>
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-2">
+          YOUR OWN BAG
         </WordsPullUp>
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 ml-10">
+          THAT FEELS
+        </WordsPullUp>
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-2">
+          LIKE YOU
+        </WordsPullUp>
+      </div>
+      <div
+        data-scroll
+        data-scroll-speed="0.5"
+        className="absolute bottom-40 left-10 pointer-events-none"
+      >
         <WordsPullUp className="font-semibold text-9xl text-zinc-900 -ml-2">
-          For You
+          FROM YOU
+        </WordsPullUp>
+      </div>
+      <div
+        data-scroll
+        data-scroll-speed="0.5"
+        className="absolute bottom-10 right-10 pointer-events-none"
+      >
+        <WordsPullUp className="font-semibold text-9xl text-zinc-900 -ml-2">
+          FOR YOU
         </WordsPullUp>
       </div>
 
@@ -125,7 +157,7 @@ export default function HeroSection() {
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 flex gap-4">
         <button
           onClick={next}
-          className="text-xl cursor-pointer group flex justify-center items-center gap-1 text-zinc-900 w-fit whitespace-nowrap relative p-1 px-3 before:content-[''] before:w-full before:h-[1.5px] before:absolute before:left-0 before:bottom-0 before:bg-zinc-900 before:transition-transform before:ease-in-out before:duration-500 before:scale-x-0 before:scale-y-100 before:origin-right hover:before:scale-x-100 hover:before:origin-left"
+          className="text-xl cursor-pointer group flex justify-center items-center gap-1 text-zinc-900 w-fit relative p-1 px-3 before:content-[''] before:w-full before:h-[1.5px] before:absolute before:left-0 before:bottom-0 before:bg-zinc-900 before:transition-transform before:ease-in-out before:duration-500 before:scale-x-0 before:scale-y-100 before:origin-right hover:before:scale-x-100 hover:before:origin-left"
         >
           <IoIosArrowBack /> SWIPE <IoIosArrowForward />
         </button>
