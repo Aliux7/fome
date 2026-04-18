@@ -86,14 +86,14 @@ export default function HeroSection() {
       <HangingRope />
 
       <div data-scroll className="absolute top-20 left-10 pointer-events-none">
-        <div className="flex justify-between items-center">
+        {/* <div className="flex justify-between items-center">
           <WordsPullUp className="text-sm text-zinc-900 text-right">
             [{active + 1}/2]
           </WordsPullUp>
-          <WordsPullUp className="font-semibold text-5xl text-zinc-900 text-right mr-10">
-            BUILD
-          </WordsPullUp>
-        </div>
+        </div> */}
+        <WordsPullUp className="font-semibold text-5xl text-zinc-900 text-right mr-10">
+          BUILD
+        </WordsPullUp>
         <WordsPullUp className="font-semibold text-5xl text-zinc-900 -ml-0.5">
           YOUR OWN BAG
         </WordsPullUp>
