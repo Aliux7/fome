@@ -5,8 +5,8 @@ import { FadeSlide } from "./UI/FadeSlide";
 
 const WhyUsSection = () => {
   return (
-    <section className="relative min-h-screen w-full h-full p-10 pt-40 flex flex-col justify-between items-center">
-      <WordsPullUp className="italic text-xl xl:text-2xl 3xl:text-3xl max-w-4xl 3xl:max-w-5xl z-20 mt-10">
+    <section className="relative min-h-screen w-full h-full p-5 lg:p-10 pt-40 flex flex-col justify-between items-center">
+      <WordsPullUp className="italic text- lg:text-xl xl:text-2xl 3xl:text-3xl max-w-4xl 3xl:max-w-5xl z-20 mt-10">
         <span className="px-5"></span>We keep everything simple. Our kits are
         made to be beginner-friendly, with clear steps, essential tools, and no
         unnecessary complexity. You don't need special skills—just a little time
@@ -17,22 +17,22 @@ const WhyUsSection = () => {
 
       <div className="flex justify-between items-center w-full">
         <div data-scroll data-scroll-speed="0.5" className="z-20 xl:mb-20">
-          <WordsPullUp className="italic text-xl 3xl:text-3xl">
+          <WordsPullUp className="italic text-lg lg:text-xl 3xl:text-3xl">
             Why Us?
           </WordsPullUp>
-          <WordsPullUp className="text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
+          <WordsPullUp className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
             SIMPLE
           </WordsPullUp>
-          <WordsPullUp className="text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
+          <WordsPullUp className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
             UNIQUE
           </WordsPullUp>
-          <WordsPullUp className="text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
+          <WordsPullUp className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
             CRAFTED
           </WordsPullUp>
-          <WordsPullUp className="text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
+          <WordsPullUp className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
             PERSONAL
           </WordsPullUp>
-          <WordsPullUp className="text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
+          <WordsPullUp className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold">
             BEGINEER FRIENDLY
           </WordsPullUp>
         </div>

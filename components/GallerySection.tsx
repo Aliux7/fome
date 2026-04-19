@@ -62,7 +62,7 @@ const ParallaxImage = ({ img, index }: any) => {
 
 const GallerySection = () => {
   return (
-    <section className="min-h-screen w-full p-10 pt-40">
+    <section className="min-h-screen w-full p-5 lg:p-10 pt-40">
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
         {images.map((img, index) => (
           <ParallaxImage key={index} img={img} index={index} />
