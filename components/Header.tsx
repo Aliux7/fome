@@ -22,7 +22,7 @@ const Header = () => {
       className={`fixed top-0 w-full h-20 flex justify-between items-center px-5 lg:px-10 z-50 transition-all duration-300 ${
         !isTop
           ? "backdrop-blur-xs bg-linear-to-t from-white/10 to-white/50"
-          : ""
+          : "backdrop-blur-xs sm:backdrop-blur-none"
       }`}
     >
       <div className="relative sm:absolute sm:left-1/2 sm:-translate-x-1/2 font-bold text-2xl lg:text-3xl xl:text-4xl 3xl:text-5xl text-zinc-900 w-fit">

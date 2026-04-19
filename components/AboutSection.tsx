@@ -7,7 +7,7 @@ import { FadeSlide } from "./UI/FadeSlide";
 
 const AboutSection = () => {
   return (
-    <section className="min-h-screen w-full p-5 lg:p-10 pt-40 flex flex-col justify-between items-center gap-0">
+    <section className="min-h-screen w-full p-5 lg:p-10 pt-40 flex flex-col justify-between items-center gap-10">
       <div className="flex flex-col justify-between items-center">
         <h1 className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold mb-5 sm:mb-10">
           About Us

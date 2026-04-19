@@ -3,7 +3,7 @@ import { WordsPullUp } from "./UI/WordsPullUp";
 
 const TutorialSection = () => {
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center p-5 md:p-10 pt-40">
+    <section className="relative sm:min-h-screen w-full flex items-center justify-center p-5 md:p-10 pt-40">
       <div className="w-full rounded-2xl relative flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10">
         <FadeSlide className="italic text-3xl sm:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 xl:absolute mb-auto xl:mb-0 left-0 top-0 leading-none text-center mr-auto md:mr-0">
           T<br className="hidden md:block" />

@@ -18,7 +18,7 @@ const CTASection = () => {
 
         <div className="absolute inset-0 bg-linear-to-tr sm:bg-linear-to-l from-zinc-900 via-zinc-900/50 to-transparent z-20" />
 
-        <div className="relative z-30 h-full  flex items-center justify-end px-5 sm:px-14">
+        <div className="relative z-30 h-full flex items-center justify-center lg:justify-end px-5 sm:px-14">
           <div className="max-w-xl 3xl:max-w-none sm:text-center lg:text-right text-white">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 3xl:text-6xl font-bold leading-tight font-satoshi">
               Made By You
