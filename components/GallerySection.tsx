@@ -18,18 +18,18 @@ import asset12 from "@/assets/images/gallery/asset12.png";
 import { FadeSlide } from "./UI/FadeSlide";
 
 const images = [
-  { src: asset4, height: "h-[210px] 3xl:h-[315px]" },
-  { src: asset5, height: "h-[280px] 3xl:h-[420px]" },
-  { src: asset12, height: "h-[220px] 3xl:h-[330px]" },
-  { src: asset1, height: "h-[240px] 3xl:h-[360px]" },
-  { src: asset2, height: "h-[280px] 3xl:h-[420px]" },
-  { src: asset3, height: "h-[260px] 3xl:h-[390px]" },
-  { src: asset6, height: "h-[240px] 3xl:h-[360px]" },
-  { src: asset7, height: "h-[300px] 3xl:h-[450px]" },
-  { src: asset8, height: "h-[300px] 3xl:h-[450px]" },
-  { src: asset9, height: "h-[340px] 3xl:h-[510px]" },
-  { src: asset10, height: "h-[280px] 3xl:h-[420px]" },
-  { src: asset11, height: "h-[280px] 3xl:h-[420px]" },
+  { src: asset4, height: "h-[158px] sm:h-[210px] 3xl:h-[315px]" },
+  { src: asset5, height: "h-[210px] sm:h-[280px] 3xl:h-[420px]" },
+  { src: asset12, height: "h-[165px] sm:h-[220px] 3xl:h-[330px]" },
+  { src: asset1, height: "h-[180px] sm:h-[240px] 3xl:h-[360px]" },
+  { src: asset2, height: "h-[210px] sm:h-[280px] 3xl:h-[420px]" },
+  { src: asset3, height: "h-[195px] sm:h-[260px] 3xl:h-[390px]" },
+  { src: asset6, height: "h-[180px] sm:h-[240px] 3xl:h-[360px]" },
+  { src: asset7, height: "h-[225px] sm:h-[300px] 3xl:h-[450px]" },
+  { src: asset8, height: "h-[225px] sm:h-[300px] 3xl:h-[450px]" },
+  { src: asset9, height: "h-[255px] sm:h-[340px] 3xl:h-[510px]" },
+  { src: asset10, height: "h-[210px] sm:h-[280px] 3xl:h-[420px]" },
+  { src: asset11, height: "h-[210px] sm:h-[280px] 3xl:h-[420px]" },
 ];
 
 const ParallaxImage = ({ img, index }: any) => {

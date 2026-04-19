@@ -97,13 +97,13 @@ export default function HeroSection() {
         <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 text-right mr-10">
           BUILD
         </WordsPullUp>
-        <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 -ml-0.5">
+        <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 sm:-ml-0.5">
           YOUR OWN BAG
         </WordsPullUp>
         <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 ml-10">
           THAT FEELS
         </WordsPullUp>
-        <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 -ml-0.5">
+        <WordsPullUp className="font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl 3xl:text-7xl text-zinc-900 sm:-ml-0.5">
           LIKE YOU
         </WordsPullUp>
       </div>

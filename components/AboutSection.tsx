@@ -9,24 +9,24 @@ const AboutSection = () => {
   return (
     <section className="min-h-screen w-full p-5 lg:p-10 pt-40 flex flex-col justify-between items-center gap-0">
       <div className="flex flex-col justify-between items-center">
-        <h1 className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold mb-10">
+        <h1 className="text-4xl lg:text-5xl xl:text-6xl 3xl:text-8xl font-semibold mb-5 sm:mb-10">
           About Us
         </h1>
-        <WordsPullUp className="lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
+        <WordsPullUp className="text-sm sm:text-base lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
           FOMÉ creates simple bag-making kits designed for beginners.
         </WordsPullUp>
-        <WordsPullUp className="lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
+        <WordsPullUp className="text-sm sm:text-base lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
           We believe making your own bag should feel easy and approachable. Each
           kit comes with carefully selected materials and straightforward
           guidance—so you can focus on the process, not the confusion.
         </WordsPullUp>
-        <WordsPullUp className="lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
+        <WordsPullUp className="text-sm sm:text-base lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
           Founded in 2026, FOMÉ began with a fresh idea: to make craftsmanship
           more accessible for everyone. We wanted to turn bag-making into
           something modern, enjoyable, and personal—where anyone can create
           something with their own hands, regardless of experience.
         </WordsPullUp>
-        <WordsPullUp className="lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
+        <WordsPullUp className="text-sm sm:text-base lg:text-lg xl:text-xl 3xl:text-2xl max-w-5xl 3xl:max-w-7xl text-center mb-5">
           At FOMÉ, it's not just about making a bag. It's about creating
           something that feels uniquely yours.
         </WordsPullUp>
