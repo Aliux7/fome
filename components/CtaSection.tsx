@@ -1,5 +1,5 @@
 import Image from "next/image";
-import background_cta from "@/assets/images/cta_background.png";
+import background_cta from "@/assets/images/cta_background.webp";
 import Link from "next/link";
 import { FaTiktok, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { TbBrandShopee } from "react-icons/tb";
@@ -53,7 +53,7 @@ const CTASection = () => {
                 <FaInstagram className="size-3 md:size-4" /> Instagram
               </Link>
               <Link
-                href="https://api.whatsapp.com/send?phone=6285173135780"
+                href="https://api.whatsapp.com/send?phone=6281256716600"
                 className="text-base xl:text-lg 3xl:text-xl  cursor-pointer group flex justify-center items-center gap-1 text-white hover:text-green-200 sm:w-32 xl:w-40 3xl:w-44 py-1 sm:px-3 whitespace-nowrap relative before:content-[''] before:w-full before:h-[1.5px] before:absolute before:left-0 before:bottom-0 before:bg-green-200 before:transition-transform before:ease-in-out before:duration-500 before:scale-x-0 before:scale-y-100 before:origin-right hover:before:scale-x-100 hover:before:origin-left"
               >
                 <FaWhatsapp className="size-3.5 md:size-4" /> Whatsapp

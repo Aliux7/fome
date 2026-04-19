@@ -1,6 +1,6 @@
 import { WordsPullUp } from "./UI/WordsPullUp";
 import Image from "next/image";
-import raw_image from "@/assets/images/raw_items.png";
+import raw_image from "@/assets/images/raw_items.webp";
 import { FadeSlide } from "./UI/FadeSlide";
 
 const WhyUsSection = () => {

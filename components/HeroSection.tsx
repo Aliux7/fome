@@ -5,10 +5,7 @@ import img2 from "@/assets/images/second_product.png";
 import HangingRope from "./HangingRope";
 import { WordsPullUp } from "./UI/WordsPullUp";
 import { FadeSlide } from "./UI/FadeSlide";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import Link from "next/link";
-import { TbBrandShopee } from "react-icons/tb";
-import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"; 
 
 const images = [img1, img2];
 

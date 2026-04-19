@@ -1,6 +1,6 @@
-import image1 from "@/assets/images/about/pouch.png";
-import image2 from "@/assets/images/about/raw_items.png";
-import image3 from "@/assets/images/about/bag.png";
+import image1 from "@/assets/images/about/pouch.webp";
+import image2 from "@/assets/images/about/raw_items.webp";
+import image3 from "@/assets/images/about/bag.webp";
 import Image from "next/image";
 import { WordsPullUp } from "./UI/WordsPullUp";
 import { FadeSlide } from "./UI/FadeSlide";
